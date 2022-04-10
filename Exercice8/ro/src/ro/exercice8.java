@@ -45,13 +45,13 @@ public class exercice8 {
 	    c[4][7]= 30;
 	    c[5][7]= 36;
 	    c[6][7]= 25;
-	/* Puisque ce problème est modélisé par [i,j] qui appartient à E,
-	alors nous allons prendre tous i et j qui ont une arrête entre eux, si par exemple :
-	i=1 et j=2, et ils ont une arrête entre eux,cela veut dire que [i,j] appartient à E,
+	/* Puisque, ce problème est modélisé par [i,j] qui appartient à E.
+	Alors nous allons prendre tous i et j qui ont une arrête entre eux. Si par exemple :
+	i=1 et j=2, et ils ont une arrête entre eux, cela veut dire que [i,j] appartient à E,
 	dans ce cas, si nous inversons les valeurs tel que : i=2 et j=1, nous auront aussi
-	une arrête entre ces deux noeuds alors,[i,j] appartient à E si nous inversont les valeurs,
-	Et puisque la fonction objectif et la contrainte 2 vont prendre i et j tel que :
-	[i,j] appartient à E, alors nous allons inclure le cas où les valeurs se sont inversés */
+	l'arrête entre ces deux noeuds. Alors, [i,j] appartient à E si nous inversons les valeurs,
+	et puisque, la fonction objectif et la contrainte 2 vont prendre i et j tel que :
+	[i,j] appartient à E. Alors, nous allons inclure le cas où les valeurs se sont inversés */
 	   
 	    c[1][0]= 30;
 	    c[2][1]= 27;
